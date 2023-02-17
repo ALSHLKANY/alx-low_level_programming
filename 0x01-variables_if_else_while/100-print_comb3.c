@@ -20,7 +20,7 @@ int main(void)
 		if (j == '9')
 		{
 			i++;
-			j = i+1 ;
+			j = i + 1;
 		}
 		else
 		{
