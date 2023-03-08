@@ -11,7 +11,7 @@ int solve(int n, int i)
 		return (1);
 	if (n % i == 0)
 		return (0);
-	solve(n, ++i);
+	return (solve(n, ++i));
 }
 /**
  * is_prime_number - :)
