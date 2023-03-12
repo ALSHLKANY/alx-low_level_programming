@@ -17,7 +17,10 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 	if else(x < 0)
+	{
 		printf("0\n");
+		return (1);
+	}
 	else
 	{
 		int coins = 0;
