@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include <ctype.h>
 /**
- * StringCheck - checks string
- * @s: string to check
- * Return: boolean
+ * IsContainSymbols - check if the string is number or not
+ * @s: argv[i]
+ * Return: 1 || 0
  */
 int IsContainSymbols(char *s)
 {
