@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
+#include <string.h>
 /**
  * main - main
  * @argc: number of arguments
@@ -16,7 +17,7 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
-	if else(x < 0)
+	if else(strchr(argv[1], '-'))
 	{
 		printf("0\n");
 		return (1);
