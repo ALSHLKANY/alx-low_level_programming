@@ -5,7 +5,7 @@
  * argstostr - argstostr
  * @ac: argc
  * @av: argv
- * return: pointer
+ * Return: pointer
  */
 char *argstostr(int ac, char **av)
 {
@@ -18,7 +18,7 @@ char *argstostr(int ac, char **av)
 	for (i = 0; i < ac; i++)
 		for (j = 0; av[i][j] != '\0'; j++)
 			chars++;
-	str = malloc(sizeof(char) * (chars + ac - 1));
+	str = malloc(sizeof(char) * (chars + ac + 1));
 	if (str == NULL)
 		return (NULL);
 	for (i = 0; i < ac ; i++)
