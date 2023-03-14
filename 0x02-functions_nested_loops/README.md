@@ -50,7 +50,6 @@ FYI: The standard library provides a similar function: `abs`. Run `man abs` to l
  function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
 
 * Prototype: `void jack_bauer(void);`
-* You can listen to [this soundtrack](https://www.youtube.com/watch?v=btAfXqgMkPs) while coding :)
 ## [9-times_table.c](./9-times_table.c)
 function that prints the 9 times table, starting with 0.
 
